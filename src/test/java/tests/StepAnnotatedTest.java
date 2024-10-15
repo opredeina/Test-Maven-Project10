@@ -20,10 +20,8 @@ public class StepAnnotatedTest {
 
 
   @Test
-  @Owner("Olesya Predeina")
   @Feature("Страница репозитория")
   @Story("Элементы на странице репозитория")
-  @Severity(SeverityLevel.NORMAL)
   @DisplayName("Тест: Шаги с аннотацией @Step")
   @Link(name = "GitHub", url = "https://github.com")
 

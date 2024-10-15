@@ -15,17 +15,15 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 
 
 public class SelenideTest {
 
   @Test
-  @Owner("Olesya Predeina")
   @Feature("Страница репозитория")
   @Story("Элементы на странице репозитория")
-  @Severity(SeverityLevel.NORMAL)
   @DisplayName("Тест: Selenide с Listener")
   @Link(name = "GitHub", url = "https://github.com")
 

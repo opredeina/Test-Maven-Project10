@@ -25,10 +25,8 @@ public class LambdaTest {
   static final int ISSUE = 80;
 
   @Test
-  @Owner("Olesya Predeina")
   @Feature("Страница репозитория")
   @Story("Элементы на странице репозитория")
-  @Severity(SeverityLevel.NORMAL)
   @DisplayName("Тест: Шаги с помощью лямбда-выражений (name, () -> {})")
   @Link(name = "GitHub", url = "https://github.com")
 
